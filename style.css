@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
+
+body{
+    font-family: 'Noto Sans JP', sans-serif;
+    width: 100vw;
+    height: 100vh;
+    background: url(https://i1.faceprep.in/ProGrad/sky-moon-bg.png);
+    background-size: 100% 100%;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+#Astronaut1{
+    position: absolute;
+    top:5%;
+    left:5%;
+    height:500px;
+    animation: floating 5s infinite ease-in;
+}
+#Astronaut2{
+        position: absolute;
+        top:30%;
+        left:30%;
+        height:425px;
+        animation: floating 4s infinite ease-in;
+}
+@keyframes floating{
+    0%{
+        transform:translateY(0px);
+    }
+    50%{
+        transform:translateY(30px);
+    }
+}
+
+form{
+    position:absolute;
+    top:15%;
+    left:65%;
+    background-color: white;
+    width: 450px;
+    padding:0px 75px;
+    border-radius: 5%;
+}
+
+.block-display{
+    display:block;
+}
+
+label{
+    font-size:16px;
+    margin: 20px 0px 4px 0px
+}
+
+input[type="button"]
+input[type="text"]
+select{
+    width:300px;
+    height:40px;
+    border:1px solid black;
+    padding:0px 5px;
+}
+
+#button{
+    display:black;
+    border-radius:20px;
+    background-color: blueviolet;
+    border:none;
+    color:white;
+    padding:15px 20x;
+    margin:40px auto;
+}
+
+.rent-label{
+    margin-right: 10px;
+    width: 30px;
+    }
+
+h1{
+    text-align:center;
+    font-size:1.6em;
+    width:280px;
+    margin:20px auto;
+}
